@@ -2,9 +2,9 @@
 
 **Computer Vision · Machine Learning · FPGA · VHDL**
 
-> An FPGA-based hand gesture classification system combining computer vision, handcrafted feature extraction, and a Decision Tree classifier for recognizing 14 hand gesture classes.
+ An FPGA-based hand gesture classification system combining computer vision, handcrafted feature extraction, and a Decision Tree classifier for recognizing 14 hand gesture classes.
 
-## ✨ Highlights
+##  Highlights
 
 |                    |                                        |
 | ------------------ | -------------------------------------- |
@@ -15,7 +15,7 @@
 
 ---
 
-## 🔄 System Pipeline
+##  System Pipeline
 
 ```text
 Input Image
@@ -37,11 +37,11 @@ Decision Tree
 FPGA / VHDL Implementation
 ```
 
-## 🖐️ Gesture Classes
+##  Gesture Classes
 
 `A` `I` `O` `U` `C` `L` `V` `X` `Y` `3` `4` `5` `8` `9`
 
-## 🧠 Machine Learning
+##  Machine Learning
 
 The classification pipeline uses a **Decision Tree** trained on 24 handcrafted features:
 
@@ -58,7 +58,7 @@ The preprocessing pipeline consists of:
 
 The hand region is extracted and resized to **64 × 64 pixels** before feature extraction.
 
-## ⚙️ FPGA Implementation
+##  FPGA Implementation
 
 The trained model is translated into VHDL-based hardware logic.
 
@@ -72,7 +72,7 @@ The implementation includes:
 
 A separate simulation environment is also included for hardware verification.
 
-## 📊 Results
+##  Results
 
 **Classification Accuracy: 92.3%**
 
