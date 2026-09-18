@@ -50,7 +50,7 @@ The classification pipeline uses a **Decision Tree** trained on 24 handcrafted f
 * **80/20 stratified train-test split**
 * Confusion matrix and classification report for evaluation
 
-## 👁️ Computer Vision
+##  Computer Vision
 
 The preprocessing pipeline consists of:
 
@@ -78,6 +78,6 @@ A separate simulation environment is also included for hardware verification.
 
 Evaluated on **196 test samples** across 14 gesture classes.
 
-## 🛠️ Technologies
+##  Technologies
 
 `Python` `OpenCV` `NumPy` `Scikit-learn` `Matplotlib` `Jupyter Notebook` `VHDL` `FPGA`
